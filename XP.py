@@ -95,7 +95,7 @@ for item in range(0, n*2, 2):
 df = pd.DataFrame({'nome_fundo':nome_fundo, 'tipo_fundo':tipo_fundo, 'aplicacao_min':aplicacao_min, 'taxa_adm':taxa_adm, 'cot_resgate':cotizacao_resgate, 'liq_resgate':liquidacao_resgate,'taxa_risco':taxa_risco,'rent_12_meses':rentabilidade_12_meses, 'rent_24_meses':rentabilidade_24_meses, 'rent_36_meses':rentabilidade_36_meses, 'data_inicio':data_de_inicio, 'benchmark':benchmark, 'taxa_performance':taxa_performance, 'link':link})
 
 #df.to_excel('Downloads\FundosXP.xlsx',index=False)
-df = pd.read_excel('Downloads\FundosXP.xlsx')
+#df = pd.read_excel('Downloads\FundosXP.xlsx')
 
 # Tratamento dos dados
 for col in range(0,len(df.columns)):
@@ -119,5 +119,5 @@ df['data_inicio'] = pd.to_datetime(df['data_inicio'])
 
 df.head()
 
-# df.to_excel('FundosXPv2.xlsx', index=False)
+#df.to_excel('FundosXPv2.xlsx', index=False)
 
