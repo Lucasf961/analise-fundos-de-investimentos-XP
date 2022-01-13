@@ -120,4 +120,3 @@ df['data_inicio'] = pd.to_datetime(df['data_inicio'])
 df.head()
 
 #df.to_excel('FundosXPv2.xlsx', index=False)
-
