@@ -1,2 +1,2 @@
 # WebScrapping-XPInvestimentos
- Extracting data from Brazilian investment funds at XP Investimentos Exchange.
+Extração dos dados de fundos de investimentos na corretora XP
